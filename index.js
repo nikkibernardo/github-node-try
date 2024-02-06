@@ -18,6 +18,8 @@ app.get('/loancalculator/:amount/:terms', (req, res) => {
   res.send(output);
 });
 
+
+
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
